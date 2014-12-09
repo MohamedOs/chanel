@@ -60,9 +60,11 @@ vars.links=(getObjects(vars.data,'rel','bookmark'));
 
 for(var i=0;i<vars.images.length;i++){
 	var iImage=vars.images[i].src;
+	var tTile=vars.links[i*2].title;
+	tTile=tTile.replace("رابط ثابت ل","");
 	iImage=iImage.replace(/-180x120/g,'');
 	arr.push({
-		title:vars.links[i*2].title,
+		title:tTile,
 		image:iImage,
 		link:vars.links[i*2].href
 	});
