@@ -15,7 +15,7 @@ varsSingle.FinalData+=varsSingle.data[0].children[10].raw+"<br>";
 varsSingle.FinalData+=varsSingle.data[0].children[12].raw+"<br>";
 varsSingle.FinalData+=varsSingle.data[0].children[14].raw+"<br>";
 varsSingle.FinalData+=varsSingle.data[0].children[16].raw+" "+varsSingle.data[0].children[17].children[0].data+"<br>";
-varsSingle.FinalData = varsSingle.FinalData.replace(/br/g, '<br>').trim();
+//varsSingle.FinalData = varsSingle.FinalData.replace(/br/g, '<br>').trim();
 arrSingle.push({
 	title:"chanel",
     data:varsSingle.FinalData	
