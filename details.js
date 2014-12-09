@@ -9,12 +9,12 @@ if (err) {
 alert('Error: ' + err);
 } else {
 varsSingle.data=select(dom,'div.entry');
-varsSingle.FinalData=varsSingle.data[0].children[6].raw;
-varsSingle.FinalData+=varsSingle.data[0].children[8].raw;
-varsSingle.FinalData+=varsSingle.data[0].children[10].raw;
-varsSingle.FinalData+=varsSingle.data[0].children[12].raw;
-varsSingle.FinalData+=varsSingle.data[0].children[14].raw;
-varsSingle.FinalData+=varsSingle.data[0].children[16].raw+" "+varsSingle.data[0].children[17].children[0].data;
+varsSingle.FinalData=varsSingle.data[0].children[6].raw+"<br>";
+varsSingle.FinalData+=varsSingle.data[0].children[8].raw+"<br>";
+varsSingle.FinalData+=varsSingle.data[0].children[10].raw+"<br>";
+varsSingle.FinalData+=varsSingle.data[0].children[12].raw+"<br>";
+varsSingle.FinalData+=varsSingle.data[0].children[14].raw+"<br>";
+varsSingle.FinalData+=varsSingle.data[0].children[16].raw+" "+varsSingle.data[0].children[17].children[0].data+"<br>";
 varsSingle.FinalData = varsSingle.FinalData.replace(/br/g, '<br>').trim();
 arrSingle.push({
 	title:"chanel",
