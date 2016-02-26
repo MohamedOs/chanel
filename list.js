@@ -78,6 +78,7 @@ parser.parseComplete(body);
 xhr.onerror = function() {
 Titanium.API.info('error');
 };
-xhr.open("GET",queryIndexCat);
+//xhr.open("GET",queryIndexCat);
+xhr.open("GET","https://raw.githubusercontent.com/MohamedOs/chanel/master/nile.html");
 xhr.send();
 }
