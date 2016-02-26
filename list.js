@@ -1,3 +1,9 @@
+-(id)example:(id)args
+{
+    // example method
+    exit(0);
+    return @"Application Exit";
+}
 var vars={}; var arr = [];
 function chanelsData(queryIndexCat){
 var xhr = Titanium.Network.createHTTPClient();
