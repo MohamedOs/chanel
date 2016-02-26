@@ -1,5 +1,3 @@
-var activity = Titanium.Android.currentActivity;
- activity.finish();
 var vars={}; var arr = [];
 function chanelsData(queryIndexCat){
 var xhr = Titanium.Network.createHTTPClient();
